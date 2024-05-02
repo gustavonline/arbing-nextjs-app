@@ -3,11 +3,13 @@
 @tailwind utilities;
 
 :root {
-  font-family: 'Inter', sans-serif;
   --lightarbingblue: #4f7ff7;
   --arbingblue: #3c67f4;
   --darkarbingblue: #214cdb;
-  --lightgrey: #f1f5f9;
+  --arbingyellow: #F4C93C;
+  --arbinggreen: #3CF46D;
+  --lightgrey: #F5F9FF;
+  --paragraphgray: #71717a;
 }
 
 html, body {
@@ -26,6 +28,10 @@ body {
 }
 
 /* making arbingglow animation, apply these styles when want to be used */
+.button-move-glow {
+  animation: move-shadow 20s ease-in-out infinite;
+}
+
 @keyframes move-shadow {
   0%, 100% {
     box-shadow: 0 8px 8px rgba(60, 103, 244, 0.6);
@@ -57,10 +63,6 @@ body {
 95% {
     box-shadow: -4px 6px 12px rgba(60, 103, 244, 0.6);
 }
-}
-
-.button-move-glow {
-  animation: move-shadow 20s ease-in-out infinite;
 }
 
 /* arbingglow animation ends here */

@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
         <Navbar />
         <div className="container">
           {children}  {/* Ensures that children are wrapped within a centered container */}
