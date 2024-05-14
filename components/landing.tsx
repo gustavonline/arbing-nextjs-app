@@ -10,7 +10,8 @@ export const Landing = () => {
       <Service />
       <Testimonals />
       <Socials />
-      {/* footer */}
+
+      {/* <Footer/> */}
     </div>
   );
 };

@@ -10,7 +10,7 @@ export const Hero = () => {
           <span>med ArbingLink i dag!</span>
         </h1>
         <p className="text-center text-paragraphgray max-w-xl sm:text-l tracking-tight">
-          Gennemfør forløb, henvis venner og tjen mindst 1500 kr. 🤩
+          Gennemfør forløb, henvis venner og tjen mindst 1500 kr. online 🤩
         </p>
         <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
           <a
